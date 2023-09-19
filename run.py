@@ -37,7 +37,7 @@ logger = logging.getLogger(__name__)
 CALCULATE, TRADE, DECISION = range(3)
 
 # allowed FX symbols
-SYMBOLS = ['AUDCAD.i', 'AUDCHF.i', 'AUDJPY.i', 'AUDNZD.i', 'AUDUSD.i', 'CADCHF.i', 'CADJPY.i', 'CHFJPY.i', 'EURAUD.i', 'EURCAD.i', 'EURCHF.i', 'EURGBP.i', 'EURJPY.i', 'EURNZD.i', 'EURUSD.i', 'GBPAUD.i', 'GBPCAD.i', 'GBPCHF.i', 'GBPJPY.i', 'GBPNZD.i', 'GBPUSD.i', 'NOW', 'NZDCAD.i', 'NZDCHF.i', 'NZDJPY.i', 'NZDUSD.i', 'USDCAD.i', 'USDCHF.i', 'USDJPY.i', 'XAGUSD', 'XAUUSD']
+SYMBOLS = ['AUDCAD_raw', 'AUDCHF_raw', 'AUDJPY_raw', 'AUDNZD_raw', 'AUDUSD_raw', 'CADCHF_raw', 'CADJPY_raw', 'CHFJPY_raw', 'EURAUD_raw', 'EURCAD_raw', 'EURCHF_raw', 'EURGBP_raw', 'EURJPY_raw', 'EURNZD_raw', 'EURUSD_raw', 'GBPAUD_raw', 'GBPCAD_raw', 'GBPCHF_raw', 'GBPJPY_raw', 'GBPNZD_raw', 'GBPUSD_raw', 'NOW', 'NZDCAD_raw', 'NZDCHF_raw', 'NZDJPY_raw', 'NZDUSD_raw', 'USDCAD_raw', 'USDCHF_raw', 'USDJPY_raw', 'XAGUSD', 'XAUUSD']
 
 # RISK FACTOR
 RISK_FACTOR = float(os.environ.get("RISK_FACTOR"))
